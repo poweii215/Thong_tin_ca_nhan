@@ -29,15 +29,11 @@
             <ul class="social-links ">
                 <li id="github-link">
                     <a href="https://github.com/poweii215 " target="_blank " rel="noopener " class="link github " title="GitHub ">
-                        <span class="icon ">
-                            <img src="\image\git.png" alt="Git logo " style="width: 18px; height: 18px; display: block; ">
-                        </span>
                         <span class="label ">GitHub</span>
                     </a>
                 </li>
                 <li id="linkedin-link">
                     <a href="https://www.linkedin.com/in/gia-v%E1%BB%B9-a61158293/ " target="_blank " rel="noopener " class="link linkedin " title="LinkedIn ">
-                        <span class="icon ">in</span>
                         <span class="label ">LinkedIn</span>
                     </a>
                 </li>
@@ -58,6 +54,17 @@
             <p>© 2025 — Trang giới thiệu cá nhân</p>
         </footer>
     </div>
+
+    <a href="#" onclick="changeLanguage('vi')">VN</a>
+    <a href="#" onclick="changeLanguage('en')">EN</a>
+    <script>
+        function changeLanguage(lang) {
+            localStorage.setItem('language', lang);
+            location.reload();
+        }
+    </script>
+
 </body>
+
 
 </html>
