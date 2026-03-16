@@ -29,9 +29,11 @@ body {
     padding: 3rem 3rem 3.25rem;
 }
 
+
 /* Header & Avatar */
+
 .profile-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2.25rem;
 }
 
@@ -75,7 +77,9 @@ body {
     font-weight: 600;
 }
 
+
 /* Intro */
+
 .intro {
     background: var(--card);
     border-radius: 18px;
@@ -100,7 +104,9 @@ body {
     font-size: 0.96rem;
 }
 
+
 /* Contact & Social */
+
 .contact {
     background: var(--card);
     border-radius: 18px;
@@ -158,10 +164,13 @@ body {
     color: var(--muted);
 }
 
-.link.linkedin .icon { color: #0a66c2; }
-.link.email .icon { color: #f97316; }
+.link.linkedin .icon {
+    color: #0a66c2;
+}
+
 
 /* Footer */
+
 footer {
     text-align: center;
     padding: 1.75rem 0 0.75rem;
@@ -169,16 +178,16 @@ footer {
     font-size: 0.86rem;
 }
 
+
 /* Responsive */
+
 @media (max-width: 480px) {
     .container {
         padding: 1.75rem 1.25rem 2.1rem;
     }
-
     .name {
         font-size: 1.6rem;
     }
-
     .avatar-wrapper {
         width: 130px;
         height: 130px;
